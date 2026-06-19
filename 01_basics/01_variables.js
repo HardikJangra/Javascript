@@ -9,4 +9,4 @@ accountCity= "Pune";
 let accountState;
 
 console.log(accountID);
-console.table([accountEmail, accountPassword, accountCity, accountState]);
+console.table([accountEmail, accountPassword, accountCity, accountState]); 
