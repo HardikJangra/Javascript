@@ -18,3 +18,14 @@ name: "hitesh", age: 22
 const myFunction = function () {
 console.log ("Hello world")
 };
+
+// ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+//Stack (Primitive), Heap (Non-Primitive)
+let myYoutubename = "hiteshchoudharydotcom"
+
+let userOne = {
+email: "user@google.com", upi: "user@ybl"
+}
+let userTwo = userOne
+userTwo.email = "hitesh@google.com"
+console. log(user0ne.email); console. log (userTwo. email);
