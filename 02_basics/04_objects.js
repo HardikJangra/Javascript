@@ -38,3 +38,26 @@ console.log(tinderUser)
 console.log(Object.keys(tinderUser))
 console.log(Object.values(tinderUser))
 console.log(Object.entries(tinderUser))
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+const course = {
+    courseName: "js in hindi",
+    price: 999,
+    courseInstructor: "hitesh choudhary"
+}
+const {courseInstructor: instructor}= course
+console.log(instructor)
+
+
+//{
+//  name: "hitesh",
+//    age: 18,
+//    location: "jaipur"
+//}
+
+[
+    {},
+    {},
+    {}
+]
