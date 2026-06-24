@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM learning</title>
+</head>
+<body class="background-color: black;color: white;">
+        <div></div>
+
+       
+</body>
+<script>
+    const div=document.createElement('div');
+    div.innerHTML='<h1>Hello World</h1>';
+    div.id=Math.round(Math.random()*10+1);
+    div.setAttribute('title','Hello World');
+    div.style.backgroundColor='black';
+    div.style.padding='10px';
+    const addText=document.createTextNode('Hello World');
+    div.appendChild(addText);
+    document.body.appendChild(div);
+    
+            
+</script>
+
+</html>
